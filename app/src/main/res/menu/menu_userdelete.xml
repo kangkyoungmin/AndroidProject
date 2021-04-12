@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_deleteUser"
+        android:title="@string/userDelete" />
+    <item
+        android:id="@+id/menu_notDeleteUser"
+        android:title="@string/userNotDelete" />
+</menu>

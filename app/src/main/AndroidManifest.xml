@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="옹기종기"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="30a13999552817da456a99cbf6014c9c" />
+
+        <activity
+            android:name=".view.MainActivity"
+            android:label="">
+            <intent-filter> <!-- 실행시 해당 화면 출력 -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.LoadingActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".view.UserActivity"
+            android:label="">
+
+        </activity>
+
+        <activity
+            android:name=".view.SignUpActivity"
+            android:label="@string/signUp"
+            android:noHistory="true">
+
+        </activity>
+
+        <activity
+            android:name=".view.FindPasswordActivity"
+            android:label="@string/pwdSearch">
+
+        </activity>
+
+        <activity
+            android:name=".view.ManagerActivity"
+            android:label="@string/managerView">
+
+        </activity>
+
+        <activity
+            android:name=".view.ChatActivity"
+            android:label="@string/chatting">
+
+        </activity>
+
+        <activity
+            android:name=".view.CreateRoomActivity"
+            android:label="">
+
+        </activity>
+
+        <activity
+            android:name=".view.MapActivity"
+            android:label="@string/map">
+
+        </activity>
+
+        <activity
+            android:name=".view.MyPageActivity"
+            android:label="@string/myPage">
+
+        </activity>
+
+        <activity
+            android:name=".view.RoomListActivity"
+            android:label="@string/listButtonLetter">
+
+        </activity>
+
+        <activity
+            android:name=".view.MyChatListActivity"
+            android:screenOrientation="unspecified"
+            android:label="">
+
+        </activity>
+
+        <activity
+            android:name=".view.MyInfoChangeActivity"
+            android:label="">
+
+        </activity>
+
+        <activity
+            android:name=".view.ServiceCenterActivity"
+            android:label="">
+
+        </activity>
+
+        <activity
+            android:name=".view.RoomDetailActivity"
+            android:label="@string/roomDetail">
+
+        </activity>
+
+        <activity
+            android:name=".view.EventActivity"
+            android:label="@string/manageEvent">
+
+        </activity>
+
+        <activity
+            android:name=".view.QnAActivity"
+            android:label="@string/manageQnA">
+
+        </activity>
+
+        <activity
+            android:name=".view.ManageUserActivity"
+            android:label="@string/manageUser">
+
+        </activity>
+
+        <activity
+            android:name=".view.MapDetailActivity"
+            android:label="@string/selectRest">
+
+        </activity>
+
+        <activity
+            android:name=".view.RoomInfoActivity"
+            android:label="@string/roomDetail" />
+    </application>
+
+</manifest>

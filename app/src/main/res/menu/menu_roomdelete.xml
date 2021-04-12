@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_detailRoom"
+        android:title="@string/roomDetail" />
+    <item
+        android:id="@+id/menu_exitRoom"
+        android:title="@string/roomExit" />
+    <item
+        android:id="@+id/menu_deleteRoom"
+        android:title="@string/roomDelete" />
+</menu>

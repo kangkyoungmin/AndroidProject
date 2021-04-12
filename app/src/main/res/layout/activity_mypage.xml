@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/logoutTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/app_concept"
+        android:gravity="center"
+        android:onClick="mOnClick"
+        android:text="@string/logOut"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serviceCenterTextView" />
+
+    <TextView
+        android:id="@+id/serviceCenterTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/app_concept2"
+        android:gravity="center"
+        android:onClick="mOnClick"
+        android:text="@string/serviceCenter"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/logoutTextView"
+        app:layout_constraintTop_toBottomOf="@+id/myInfoChangeTextView" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPageImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="91dp"
+        android:src="@drawable/image_man"
+        app:civ_border_color="@color/Black"
+        app:civ_border_width="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/myPageNicknameTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myPageNicknameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:text="@string/defaultValue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="172dp" />
+
+    <TextView
+        android:id="@+id/myChatListTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/app_concept2"
+        android:gravity="center"
+        android:onClick="mOnClick"
+        android:text="@string/myChatList"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/myInfoChangeTextView"
+        app:layout_constraintTop_toBottomOf="@+id/myPageNicknameTextView" />
+
+    <TextView
+        android:id="@+id/myInfoChangeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/app_concept"
+        android:gravity="center"
+        android:onClick="mOnClick"
+        android:text="@string/infoChange"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/serviceCenterTextView"
+        app:layout_constraintTop_toBottomOf="@+id/myChatListTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

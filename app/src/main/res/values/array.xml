@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personnel">
+        <item>2명</item>
+        <item>3명</item>
+        <item>4명</item>
+    </string-array>
+
+    <string-array name="restName">
+        <item>가메이</item>
+        <item>고수찜닭</item>
+        <item>궁중보쌈</item>
+        <item>까사올리브</item>
+        <item>끝집고기</item>
+
+        <item>내가찜한닭</item>
+        <item>당가네대박삼겹</item>
+        <item>동아리닭갈비</item>
+        <item>명동찌개마을</item>
+        <item>미로곱창</item>
+
+        <item>시내비골</item>
+        <item>신촌샤브샤브</item>
+        <item>아웃닭</item>
+        <item>우선소곱창</item>
+        <item>인하칼국수</item>
+
+        <item>족사랑</item>
+        <item>청년다방</item>
+        <item>취엔</item>
+        <item>타이스푼</item>
+        <item>파치</item>
+    </string-array>
+</resources>
